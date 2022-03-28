@@ -6,9 +6,13 @@ import java.util.List;
 
 /**
  * 1. İkisi de List interface'inden turemektedir, yapi olarak da oldukca benzerdir
- * 2. LinkedList prev ve next Node elementlerini tutmaktadir, bu yuzden olasi bir delete isleminde sadece yanindaki elementler birbirine baglanir
- * 3. Bu acidan data manipulation islemi coksa LinkedList, azsa ArrayList kullanman saglikli olacaktir. Ekstra element tutmadigi icin ArrayList daha az memory kullanacaktir
- * 4. Read islemleri fazlaysa arrayList kullanmak daha saglikli olacaktir
+ * 2. primitive typelar icin yaratilamaz
+ * 3. Ikisinde de insertion ordera gore siralama olacaktir
+ * 4. LinkedList prev ve next Node elementlerini tutmaktadir, bu yuzden olasi bir delete isleminde sadece yanindaki elementler birbirine baglanir
+ * 5. Bu acidan data manipulation islemi coksa LinkedList, azsa ArrayList kullanman saglikli olacaktir. Ekstra element tutmadigi icin ArrayList daha az memory kullanacaktir
+ * 6. Read islemleri fazlaysa arrayList kullanmak daha saglikli olacaktir
+ * 7. Cache icin kullanacaksak ArrayList kullanmak daha dogru
+ *  
  * @author korayk
  *
  */
