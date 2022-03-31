@@ -1,4 +1,4 @@
-package collection.examples;
+package collection.list;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
@@ -12,6 +12,7 @@ import java.util.List;
  * 5. Bu acidan data manipulation islemi coksa LinkedList, azsa ArrayList kullanman saglikli olacaktir. Ekstra element tutmadigi icin ArrayList daha az memory kullanacaktir
  * 6. Read islemleri fazlaysa arrayList kullanmak daha saglikli olacaktir
  * 7. Cache icin kullanacaksak ArrayList kullanmak daha dogru
+ * 8. retain metodu parametre gecilen collectiondaki parametreler kalacak sekilde collectioni gunceller
  *  
  * @author korayk
  *
