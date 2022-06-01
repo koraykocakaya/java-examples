@@ -1,4 +1,4 @@
-package collection.set;
+package com.kk.collection.set;
 
 import java.util.Set;
 import java.util.concurrent.ConcurrentSkipListSet;
